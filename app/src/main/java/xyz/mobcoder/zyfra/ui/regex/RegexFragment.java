@@ -10,7 +10,6 @@ import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 
-import java.util.Arrays;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -21,7 +20,6 @@ import xyz.mobcoder.zyfra.adapter.MacAdapter;
 import xyz.mobcoder.zyfra.arch.regex.RegexContract;
 import xyz.mobcoder.zyfra.arch.regex.RegexPresenter;
 import xyz.mobcoder.zyfra.databinding.FragmentRegexBinding;
-import xyz.mobcoder.zyfra.models.MacModel;
 
 public class RegexFragment extends Fragment implements RegexContract.View {
     FragmentRegexBinding binding;

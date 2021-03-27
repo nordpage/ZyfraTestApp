@@ -5,7 +5,6 @@ import android.content.Context;
 import java.util.List;
 
 import xyz.mobcoder.zyfra.arch.base.BaseContract;
-import xyz.mobcoder.zyfra.models.MacModel;
 
 public class RegexContract {
 

@@ -11,7 +11,7 @@ import xyz.mobcoder.zyfra.App;
 @Module
 public class AppModule {
 
-    private Context context;
+    private final Context context;
 
     public AppModule(App app) {
         this.context = app.getApplicationContext();

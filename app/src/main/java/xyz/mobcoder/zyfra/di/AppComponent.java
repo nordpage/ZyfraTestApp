@@ -3,8 +3,6 @@ package xyz.mobcoder.zyfra.di;
 import javax.inject.Singleton;
 
 import dagger.Component;
-import xyz.mobcoder.zyfra.arch.clone.ClonePresenter;
-import xyz.mobcoder.zyfra.arch.regex.RegexPresenter;
 import xyz.mobcoder.zyfra.di.modules.AppModule;
 import xyz.mobcoder.zyfra.di.modules.CloneModule;
 import xyz.mobcoder.zyfra.di.modules.ImageModule;
