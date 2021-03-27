@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_clone">
+
+    <fragment
+        android:id="@+id/navigation_clone"
+        android:name="xyz.mobcoder.zyfra.ui.clone.CloneFragment"
+        android:label="@string/title_cloned"
+        tools:layout="@layout/fragment_clone" />
+
+    <fragment
+        android:id="@+id/navigation_regex"
+        android:name="xyz.mobcoder.zyfra.ui.regex.RegexFragment"
+        android:label="@string/title_regex"
+        tools:layout="@layout/fragment_regex" />
+
+    <fragment
+        android:id="@+id/navigation_image"
+        android:name="xyz.mobcoder.zyfra.ui.image.ImageFragment"
+        android:label="@string/title_image"
+        tools:layout="@layout/fragment_image" />
+</navigation>
